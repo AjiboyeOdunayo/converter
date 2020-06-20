@@ -41,31 +41,29 @@
     // result2.addEventListener("keyup",myResult);
     
 function myResult(){
-	// result.value = input.value;
-	// input.value = result.value;
-
-     if  (result.value = input.value) {  
  		result.value = input.value *0.01;
 
  		var result2 = document.getElementById("result2").innerHTML
       = input.value + " CM=" +  result.value + " M "
 
- 	// }else if(input.value = result.value) {
-
- 	// 	input.value = result.value *100;
- 	
-
-
-//  	function myResult(){
-// 	// result.value = input.value;
-// 	// input.value = result.value;
-
-//      if  (input.value = result.value) {  
-//  		input.value = result.value *100;
-// } 	
  	}
- 	 }
- 	
+
+
+
+ // 	var result = document.getElementById("result");
+	// var input = document.getElementById("input");
+	// var result2 = document.getElementById("result2");
+
+ //    result.addEventListener("keyup",myCent);
+ //     input.addEventListener("keyup",myCent);
+ 	 
+ // 	function myCent(){
+ // 		input.value = result.value *100;
+
+ 		// var result2 = document.getElementById("result2").innerHTML
+   //    = input.value + " CM=" +  result.value + " M "
+
+ 	// }
 
  	 
 
